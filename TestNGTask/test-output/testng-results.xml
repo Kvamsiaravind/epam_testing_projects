@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-15T14:07:21 IST" name="TestNG suite" finished-at="2023-10-15T14:07:22 IST" duration-ms="118">
+    <groups>
+      <group name="fail">
+        <method signature="TestNGTask.addition()[pri:0, instance:testngtask.TestNGTask@b9afc07]" name="addition" class="testngtask.TestNGTask"/>
+        <method signature="TestNGTask.dividing()[pri:0, instance:testngtask.TestNGTask@b9afc07]" name="dividing" class="testngtask.TestNGTask"/>
+        <method signature="TestNGTask.multiplication()[pri:0, instance:testngtask.TestNGTask@b9afc07]" name="multiplication" class="testngtask.TestNGTask"/>
+        <method signature="TestNGTask.square()[pri:0, instance:testngtask.TestNGTask@b9afc07]" name="square" class="testngtask.TestNGTask"/>
+        <method signature="TestNGTask.subtraction()[pri:0, instance:testngtask.TestNGTask@b9afc07]" name="subtraction" class="testngtask.TestNGTask"/>
+      </group> <!-- fail -->
+      <group name="bugsGroup">
+        <method signature="BugTest.testDoubleCos(java.lang.Double,java.lang.Double)[pri:0, instance:testngtask.BugTest@2a40cd94]" name="testDoubleCos" class="testngtask.BugTest"/>
+        <method signature="BugTest.testDoublePower(java.lang.Double,java.lang.Double,java.lang.Double)[pri:0, instance:testngtask.BugTest@2a40cd94]" name="testDoublePower" class="testngtask.BugTest"/>
+        <method signature="BugTest.testDoubleSqrt(java.lang.Double,java.lang.Double)[pri:0, instance:testngtask.BugTest@2a40cd94]" name="testDoubleSqrt" class="testngtask.BugTest"/>
+        <method signature="BugTest.testDoubleTg(java.lang.Double,java.lang.Double)[pri:0, instance:testngtask.BugTest@2a40cd94]" name="testDoubleTg" class="testngtask.BugTest"/>
+        <method signature="BugTest.testLongVerify(double,double,double)[pri:0, instance:testngtask.BugTest@2a40cd94]" name="testLongVerify" class="testngtask.BugTest"/>
+      </group> <!-- bugsGroup -->
+    </groups>
+    <test started-at="2023-10-15T14:07:21 IST" name="TestNG test2" finished-at="2023-10-15T14:07:22 IST" duration-ms="118">
+      <class name="testngtask.TestNGSampleTests">
+        <test-method signature="testVerifyTwoChars()[pri:0, instance:testngtask.TestNGSampleTests@12405818]" started-at="2023-10-15T14:07:22 IST" name="testVerifyTwoChars" finished-at="2023-10-15T14:07:22 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTwoChars -->
+        <test-method signature="testVerifyTwoIntegers()[pri:0, instance:testngtask.TestNGSampleTests@12405818]" started-at="2023-10-15T14:07:22 IST" name="testVerifyTwoIntegers" finished-at="2023-10-15T14:07:22 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTwoIntegers -->
+        <test-method signature="testVerifyTwoStrings()[pri:0, instance:testngtask.TestNGSampleTests@12405818]" started-at="2023-10-15T14:07:22 IST" name="testVerifyTwoStrings" finished-at="2023-10-15T14:07:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTwoStrings -->
+      </class> <!-- testngtask.TestNGSampleTests -->
+    </test> <!-- TestNG test2 -->
+  </suite> <!-- TestNG suite -->
+  <suite started-at="2023-10-15T14:07:22 IST" name="Calculator functionality" finished-at="2023-10-15T14:07:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Calculator functionality -->
+</testng-results>

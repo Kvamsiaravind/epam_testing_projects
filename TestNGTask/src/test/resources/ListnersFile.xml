@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG suite">
+    <listeners>
+        <listener class-name="testngtask.ListnersTask"></listener>
+    </listeners>
+</suite>
